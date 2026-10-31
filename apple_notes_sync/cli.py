@@ -11,7 +11,7 @@ from pathlib import Path
 from .notes import NotesApp
 from .sync import State, sync
 
-LABEL = "com.anuvgupta.apple-notes-sync"
+LABEL = "local.apple-notes-sync"
 DEFAULT_OUT = Path.home() / "apple-notes"
 DEFAULT_STATE = Path.home() / "Library/Application Support/apple-notes-sync/state.json"
 PLIST = Path.home() / "Library/LaunchAgents" / (LABEL + ".plist")
