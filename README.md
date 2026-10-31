@@ -15,6 +15,8 @@ Needs macOS with Apple Notes and the system Python (`/usr/bin/python3`, 3.9+, fr
    cd ~/apple-notes-sync
    ```
 
+   Or over SSH: `git clone git@github.com:anuvgupta/apple-notes-sync.git ~/apple-notes-sync`
+
 2. Open Apple Notes and leave it open.
 3. Run the first sync by hand. It copies every note (about 3 minutes for 2,300 notes). macOS asks for permission to let your terminal control Notes; click **Allow**.
 
