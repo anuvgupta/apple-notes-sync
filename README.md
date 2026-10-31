@@ -11,7 +11,7 @@ Needs macOS with Apple Notes and the system Python (`/usr/bin/python3`, 3.9+, fr
 1. Clone the repo somewhere it will stay; the agent runs from this checkout, so moving or deleting it stops the sync.
 
    ```bash
-   git clone git@github.com:anuvgupta/apple-notes-sync.git ~/apple-notes-sync
+   git clone https://github.com/anuvgupta/apple-notes-sync.git ~/apple-notes-sync
    cd ~/apple-notes-sync
    ```
 
@@ -91,3 +91,7 @@ The output folder is a read-only copy: edits there never reach Apple Notes and a
 ```bash
 python3 -m unittest discover -s tests -t .
 ```
+
+## License
+
+MIT
